@@ -1,0 +1,111 @@
+{
+
+    "name": "Yaşoyunu",
+
+    "description": "Luciyaşoyunu.",
+
+    "logo": "https://telegra.ph/file/30dc3b4e57ef896688d0d.jpg",
+
+    "keywords": [
+
+        "Heyatdıda zaur",
+
+        "Napim",
+
+        "Okey",
+
+        "Osman",
+
+        "Dalok"
+
+    ],
+
+    "repository": "repo linki",
+
+    "success_url": " Https://t.me/lordchattt",
+
+    "image": "heroku/python",
+
+    "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    },
+
+    "env": {
+
+        "BOT TOKEN": {
+
+            "description": "HEYATDIDA..",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "SESSION NAME": {
+
+            "description": "salla.",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "API_ID": {
+
+            "description": "saaaç.",
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "API_HASH": {
+
+            "description": "31."
+
+            "value": "",
+
+            "required": true
+
+        },
+
+        "BOT NAME": {
+
+            "description": "72",
+
+            "value": "",
+
+            "required": true
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+        },
+
+        {
+
+            "url": "heroku/python"
+
+        }
+
+    ]
+
+}
